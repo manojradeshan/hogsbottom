@@ -48,7 +48,21 @@ nav ul li a {
   display: flex;
   margin-top: 6px;
 }
+.material-symbols-outlined {
+  font-family: "Material Symbols Outlined";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 25px;
 
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+}
 .material-symbols-outlined {
   position: absolute;
   background-color: #649646;
@@ -57,7 +71,9 @@ nav ul li a {
   height: 40px;
   border-radius: 20px;
   outline-color: #649646;
-  z-index: 1;
+  line-height: 1.8;
+  padding-left: 8px;
+  z-index: 2;
 }
 
 input[type="text"] {
@@ -94,9 +110,6 @@ i.fa-solid.fa-bag-shopping {
   min-height: 160px;
   background: #34473d;
   position: relative;
-}
-
-.hedder-container .logo-img {
 }
 
 .hedder-container .logo-img img {
@@ -158,6 +171,7 @@ li.parent-item ul li a {
 
 .main-navbar ul li.parent-item:hover > ul {
   display: block;
+  z-index: 2;
 }
 
 .main-navbar ul li ul {
@@ -282,6 +296,43 @@ element.style {
 }
 
 .reviews-tab a {
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
+}
+
+.home-middle-container {
+  height: 130px;
+  background: #fff;
+  position: relative;
+}
+
+.home-middle {
+  display: inline-flex;
+  justify-content: space-evenly;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+  transform: translate(-50%, -50%);
+}
+
+.home-middle .title {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #34473d;
+}
+
+.home-middle .home-middle-raw::before {
+  top: 3px;
+  width: 30px;
+  height: 30px;
+  background-image: url(/images/reason-icons-v2.svg);
+}
+
+.home-small-banner-row {
+  display: flex;
+  justify-content: space-evenly;
 }
