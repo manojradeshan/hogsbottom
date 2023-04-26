@@ -362,6 +362,7 @@ element.style {
   padding-bottom: 20px;
   margin: auto;
   background: #ece6e1;
+  margin-bottom: 60px;
 }
 
 .home-products-title h4 {
@@ -375,8 +376,8 @@ element.style {
 }
 
 .all-products {
-    width: 95%;
-    margin: 0 auto;
+  width: 95%;
+  margin: 0 auto;
 }
 
 .the-products {
@@ -396,12 +397,8 @@ element.style {
 }
 
 .products-title,
-.review-stars,
-.stars,
-.price,
-.stock-msg,
-.shop-now-img {
-  margin: 20px 0 20px 0;
+.stock-msg {
+  padding: 20px 0 20px 0;
 }
 
 .the-products-card {
@@ -412,6 +409,19 @@ element.style {
 span.count {
   color: #34473d;
   font-size: 14px;
+  height: 70px;
+}
+
+p.price {
+  font-size: 14px;
+  color: #34473d;
+  font-weight: 700;
+  padding-top: 5px;
+}
+
+.stock-msg {
+  font-size: 12px;
+  color: #008a0b;
 }
 
 .review-stars .stars span.material-symbols-sharp {
@@ -419,3 +429,159 @@ span.count {
 }
 
 /* home-products css end  */
+
+/* review section css start  */
+
+.review {
+  text-align: center;
+}
+
+.review-box-title {
+  margin-top: 35px;
+  margin-bottom: 50px;
+  color: #34473d;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  text-align: center;
+  font-size: 16px;
+}
+
+.review-box {
+  width: 70%;
+  margin: 0 auto;
+  background-color: #ece6e1;
+  border-radius: 20px;
+  margin-bottom: 40px;
+}
+
+p.review {
+  font-weight: 700;
+  font-size: 14px;
+  color: #34473d;
+  margin-top: 10px;
+}
+
+span.review-date {
+  font-style: italic;
+  font-size: 12px;
+}
+
+p.description {
+  font-size: 14px;
+  line-height: 1.4;
+  color: #666;
+  margin: 10px;
+  padding: 5px 20px;
+}
+
+.reviewer-name {
+  padding: 10px 0 40px 0;
+  font-size: 15px;
+  font-style: italic;
+  color: #666;
+}
+
+.read-revivew-btn {
+  position: relative;
+  padding: 12px 25px 8px;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  background-color: #415648;
+  border: none;
+  color: #f4e5d3;
+  border-radius: 5px;
+  margin-bottom: 40px;
+}
+
+/* review section css end  */
+
+.welcome-section-container {
+  position: relative;
+  background-image: url(./images/welcome-background.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+}
+
+.welcome-box {
+  width: 80%;
+  height: 330px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.welcome-text {
+  margin-bottom: 40px;
+}
+
+span.welcome {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.welcome-box h1 {
+  text-transform: uppercase;
+  margin: 30px;
+  margin-bottom: 25px;
+  color: #333;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+p.welcome {
+  font-size: 14px;
+  letter-spacing: 1.12px;
+  line-height: 1.5;
+  font-weight: 400;
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.welcome-btn a,
+form a {
+  position: relative;
+  text-decoration: none;
+  padding: 12px 25px 8px;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  background-color: #415648;
+  color: #f4e5d3;
+  border-radius: 10px;
+}
+
+form {
+    align-items: center;
+    display: flex;
+    margin: 40px;
+}
+
+input.form-placeholder {
+    background-color: transparent;
+}
+
+label {
+    text-transform: uppercase;
+    color: #333;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+span.contact {
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+}

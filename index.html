@@ -154,7 +154,7 @@
             possible</p>
     </div>
 
-    <!-- home-products -->
+    <!-- home-products section start -->
     <section>
         <div class="home-products">
             <div class="home-products-container">
@@ -255,7 +255,7 @@
                                 </div>
                             </div>
                         </div>
-                      <!-- <div class="the-products-card">
+                        <!-- <div class="the-products-card">
                             <div class="products-img">
                                 <img src="./images/caravasal/5lifestyle-rectangular_edited272.jpg" alt="">
                             </div>
@@ -352,6 +352,88 @@
             </div>
         </div>
     </section>
+    <!-- home-products section start -->
+
+    <!-- review section stat -->
+    <section class="review">
+        <div class="review-container">
+            <h2 class="review-box-title">Our customers love our food</h2>
+
+            <div class="review-box">
+                <div class="review-stars" style="
+    padding-top: 40px;">
+                    <div class="stars">
+                        <span class="material-symbols-sharp" style="letter-spacing: -10px;
+    font-size: 22px;">star</span>
+                        <span class="material-symbols-sharp" style="letter-spacing: -10px;
+    font-size: 22px;">star</span>
+                        <span class="material-symbols-sharp" style="letter-spacing: -10px;
+    font-size: 22px;">star</span>
+                        <span class="material-symbols-sharp" style="letter-spacing: -10px;
+    font-size: 22px;">star</span>
+                        <span class="material-symbols-sharp" style="letter-spacing: -10px;
+    font-size: 22px;">star</span>
+                    </div>
+                </div>
+
+                <div class="review-title">
+                    <p class="review">AMAZING!!! <span class="review-date">8th September 2021</span></p>
+                </div>
+                <div class="review-description">
+                    <p class="description">I got a bottle at a local cafe close to me, when they ran out I went on line
+                        and
+                        bought a few bottles! Best chutney
+                        EVER!!!</p>
+                </div>
+                <div class="reviewer-name">Sallythomas1980</div>
+            </div>
+            <button class="read-revivew-btn">Read Reviews</button>
+        </div>
+        </div>
+    </section>
+    <!-- review section end -->
+
+    <!-- welcome section start  -->
+    <section class="welcome">
+        <div class="welcome-section">
+            <div class="welcome-section-container">
+                <div class="welcome-box">
+                    <h1>
+                        <span class="welcome">welcome</span><br><br>
+                        Hogs Bottom Preserves Ltd
+                    </h1>
+                    <div class="welcome-text">
+                        <p class="welcome">From the heart of the beautiful Devon countryside, Hogs Bottom produces small
+                            handmade batches of delicious preserves.
+                            Using quality ingredients, we produce a wonderful range of award-winning chutneys, jams,
+                            dressings, curds, marmalades,
+                            mayonnaises and mustards.</p>
+                        <p class="welcome">Whether you are looking to spice up a sandwich, dress a salad or liven up
+                            your
+                            BBQ we have the product for you. Look at
+                            our recipe page for the many ways you can use our versatile products.</p>
+                    </div>
+                    <div class="welcome-btn">
+                        <a href="#">our story</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- welcome section end  -->
+
+    <div class="contact-section">
+        <div class="contact-section-container">
+            <form action="post">
+                <label for="">Sign up to our Newsletter <br>
+                    <span class="contact">For latest news & offers</span>
+                </label>
+                <input type="text" class="form-placeholder" placeholder="Enter your name">
+                <input type="text" class="form-placeholder" placeholder="Enter your email address">
+                <a href="#" style="margin-left: 300px;">sign up</a>
+            </form>
+        </div>
+    </div>
     <footer>
 
     </footer>
@@ -364,49 +446,11 @@
 
     function showSlides() {
         let i;
-        let slides = document.getElementsByClassName("mySlides");
-        let dots = document.getElementsByClassName("dot");
-        for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-        }
-        slideIndex++;
-        if (slideIndex > slides.length) { slideIndex = 1 }
-        for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex - 1].style.display = "block";
-        dots[slideIndex - 1].className += " active";
-        setTimeout(showSlides, 5000); // Change image every 5 seconds
-    }
-</script>
-
-<!-- <script>
-    let slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-}
-</script> -->
+        let slides = document.getElementsByClassName(" mySlides"); let dots = document.getElementsByClassName("dot"); for
+            (i = 0; i < slides.length; i++) { slides[i].style.display = "none"; } slideIndex++; if (slideIndex >
+                slides.length) { slideIndex = 1 }
+        for (i = 0; i < dots.length; i++) { dots[i].className = dots[i].className.replace(" active", ""); }
+        slides[slideIndex - 1].style.display = "block"; dots[slideIndex - 1].className += " active";
+        setTimeout(showSlides, 5000); // Change image every 5 seconds } </script>
 
 </html>
