@@ -29,10 +29,11 @@
                 <li><a href="./contact.html">Contact Us</a></li>
             </ul>
             <div class="search-btn"> <!-- search btn -->
-                <div class="material-symbols-outlined">
+                <button name="search" class="material-symbols-outlined" aria-label="Search">
                     search
-                </div>
-                <span><input type="text" placeholder="search..."></span>
+                </button>
+                <span><input type="text" aria-label="Search" name="search" placeholder="search..." autocomplete="off"
+                        maxlength="100"></span>
             </div>
             <p class="checkout-section">
                 <span>Checkout</span>
@@ -115,41 +116,244 @@
     </div>
     <!-- image slideshow end  -->
 
-<div class="home-middle-container">
-    <div class="home-middle">
-        <div class="home-middle-raw">
-            <div class="title">Award Winning</div>
-            <div class="subtitle">Chutneys and preserves</div>
-        </div>
-        <div class="home-middle-raw">
-            <div class="title">Free Delivery</div>
-            <div class="subtitle">On all orders over £40</div>
-        </div>
-        <div class="home-middle-raw">
-            <div class="title">Handmade</div>
-            <div class="subtitle">In Our Devon Kitchen</div>
-        </div>
-    </div>
-</div>
-
-<div class="home-small-banner">
-    <div class="home-small-banner-container">
-        <div class="home-small-banner-row">
-            <div class="banner-card">
-                <img src="./images/small-chutneys.jpg" alt="">
+    <div class="home-middle-container">
+        <div class="home-middle">
+            <div class="home-middle-raw">
+                <div class="title">Award Winning</div>
+                <div class="subtitle">Chutneys and preserves</div>
             </div>
-            <div class="banner-card">
-                <img src="./images/small-jams.jpg" alt="">
+            <div class="home-middle-raw">
+                <div class="title">Free Delivery</div>
+                <div class="subtitle">On all orders over £40</div>
             </div>
-            <div class="banner-card">
-                <img src="./images/small-gift-packs.jpg" alt="">
+            <div class="home-middle-raw">
+                <div class="title">Handmade</div>
+                <div class="subtitle">In Our Devon Kitchen</div>
             </div>
         </div>
     </div>
-</div>
 
+    <div class="home-small-banner">
+        <div class="home-small-banner-container">
+            <div class="home-small-banner-row">
+                <div class="banner-card">
+                    <img src="./images/small-chutneys.jpg" alt="">
+                </div>
+                <div class="banner-card">
+                    <img src="./images/small-jams.jpg" alt="">
+                </div>
+                <div class="banner-card">
+                    <img src="./images/small-gift-packs.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="small-banner-text">
+        <p>Our products are handmade in small batches to maximise the flavour, using local fresh produce whenever
+            seasonally
+            possible</p>
+    </div>
+
+    <!-- home-products -->
+    <section>
+        <div class="home-products">
+            <div class="home-products-container">
+                <div class="home-products-title">
+                    <h4>Our Best Sellers</h4>
+                </div>
+                <div class="all-products">
+                    <div class="the-products">
+                        <div class="the-products-card">
+                            <div class="products-img">
+                                <img src="./images/caravasal/1lifestyle-rectangular_edited238.jpg" alt="">
+                            </div>
+                            <div class="products-details">
+                                <div class="products-title">Nettle, Ginger & Lemon Dressing (250ml)</div>
+                                <div class="review-stars">
+                                    <div class="stars">
+                                        <span class="material-symbols-sharp">star</span>
+                                        <span class="material-symbols-sharp">star</span>
+                                        <span class="material-symbols-sharp">star</span>
+                                        <span class="material-symbols-sharp">star</span>
+                                        <span class="material-symbols-sharp">star</span>
+                                        <span class="count">(31)</span>
+                                    </div>
+                                </div>
+                                <p class="price">£3.50</p>
+                                <div class="stock-msg">In Stock</div>
+                                <div class="shop-now-img">
+                                    <img src="./images/shop-now.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="the-products-card">
+                            <div class="products-img">
+                                <img src="./images/caravasal/2lifestyle-rectangular_edited202.jpg" alt="">
+                            </div>
+                            <div class="products-details">
+                                <div class="products-title">English Breakfast Marmalade 340g</div>
+                                <div class="review-stars">
+                                    <div class="stars">
+                                        <span class="material-symbols-sharp">star</span>
+                                        <span class="material-symbols-sharp">star</span>
+                                        <span class="material-symbols-sharp">star</span>
+                                        <span class="material-symbols-sharp">star</span>
+                                        <span class="material-symbols-sharp">star</span>
+                                        <span class="count">(31)</span>
+                                    </div>
+                                </div>
+                                <p class="price">£3.50</p>
+                                <div class="stock-msg">In Stock</div>
+                                <div class="shop-now-img">
+                                    <img src="./images/shop-now.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="the-products-card">
+                            <div class="products-img">
+                                <img src="./images/caravasal/3lifestyle-rectangular_edited202.jpg" alt="">
+                            </div>
+                            <div class="products-details">
+                                <div class="products-title">Devon Chutney 320g</div>
+                                <div class="review-stars">
+                                    <div class="stars">
+                                        <span class="material-symbols-sharp">star</span>
+                                        <span class="material-symbols-sharp">star</span>
+                                        <span class="material-symbols-sharp">star</span>
+                                        <span class="material-symbols-sharp">star</span>
+                                        <span class="material-symbols-sharp">star</span>
+                                        <span class="count">(31)</span>
+                                    </div>
+                                </div>
+                                <p class="price">£3.50</p>
+                                <div class="stock-msg">In Stock</div>
+                                <div class="shop-now-img">
+                                    <img src="./images/shop-now.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="the-products-card">
+                            <div class="products-img">
+                                <img src="./images/caravasal/4lifestyle-rectangular_edited186.jpg" alt="">
+                            </div>
+                            <div class="products-details">
+                                <div class="products-title">Westcountry Ploughmans Chutney 320g</div>
+                                <div class="review-stars">
+                                    <div class="stars">
+                                        <span class="material-symbols-sharp">star</span>
+                                        <span class="material-symbols-sharp">star</span>
+                                        <span class="material-symbols-sharp">star</span>
+                                        <span class="material-symbols-sharp">star</span>
+                                        <span class="material-symbols-sharp">star</span>
+                                        <span class="count">(31)</span>
+                                    </div>
+                                </div>
+                                <p class="price">£3.50</p>
+                                <div class="stock-msg">In Stock</div>
+                                <div class="shop-now-img">
+                                    <img src="./images/shop-now.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                      <!-- <div class="the-products-card">
+                            <div class="products-img">
+                                <img src="./images/caravasal/5lifestyle-rectangular_edited272.jpg" alt="">
+                            </div>
+                            <div class="products-details">
+                                <div class="products-title">Nettle, Ginger & Lemon Dressing (250ml)</div>
+                                <div class="review-stars">
+                                    <div class="stars">
+                                        <span class="material-symbols-sharp">star</span>
+                                        <span class="material-symbols-sharp">star</span>
+                                        <span class="material-symbols-sharp">star</span>
+                                        <span class="material-symbols-sharp">star</span>
+                                        <span class="material-symbols-sharp">star</span>
+                                        <span class="count">(31)</span>
+                                    </div>
+                                </div>
+                                <p class="price">£3.50</p>
+                                <div class="stock-msg">In Stock</div>
+                                <div class="shop-now-img">
+                                    <img src="./images/shop-now.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                         <div class="the-products-card">
+                            <div class="products-img">
+                                <img src="./images/caravasal/6garlic_lemon_and_parsley_jpg_mini-500x500.jpeg" alt="">
+                            </div>
+                            <div class="products-details">
+                                <div class="products-title">Nettle, Ginger & Lemon Dressing (250ml)</div>
+                                <div class="review-stars">
+                                    <div class="stars">
+                                        <span class="material-symbols-sharp">star</span>
+                                        <span class="material-symbols-sharp">star</span>
+                                        <span class="material-symbols-sharp">star</span>
+                                        <span class="material-symbols-sharp">star</span>
+                                        <span class="material-symbols-sharp">star</span>
+                                        <span class="count">(31)</span>
+                                    </div>
+                                </div>
+                                <p class="price">£3.50</p>
+                                <div class="stock-msg">In Stock</div>
+                                <div class="shop-now-img">
+                                    <img src="./images/shop-now.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="the-products-card">
+                            <div class="products-img">
+                                <img src="./images/caravasal/7lifestyle-rectangular_edited182.jpg" alt="">
+                            </div>
+                            <div class="products-details">
+                                <div class="products-title">Nettle, Ginger & Lemon Dressing (250ml)</div>
+                                <div class="review-stars">
+                                    <div class="stars">
+                                        <span class="material-symbols-sharp">star</span>
+                                        <span class="material-symbols-sharp">star</span>
+                                        <span class="material-symbols-sharp">star</span>
+                                        <span class="material-symbols-sharp">star</span>
+                                        <span class="material-symbols-sharp">star</span>
+                                        <span class="count">(31)</span>
+                                    </div>
+                                </div>
+                                <p class="price">£3.50</p>
+                                <div class="stock-msg">In Stock</div>
+                                <div class="shop-now-img">
+                                    <img src="./images/shop-now.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="the-products-card">
+                            <div class="products-img">
+                                <img src="./images/caravasal/8lifestyle-rectangular_edited196.jpg" alt="">
+                            </div>
+                            <div class="products-details">
+                                <div class="products-title">Nettle, Ginger & Lemon Dressing (250ml)</div>
+                                <div class="review-stars">
+                                    <div class="stars">
+                                        <span class="material-symbols-sharp">star</span>
+                                        <span class="material-symbols-sharp">star</span>
+                                        <span class="material-symbols-sharp">star</span>
+                                        <span class="material-symbols-sharp">star</span>
+                                        <span class="material-symbols-sharp">star</span>
+                                        <span class="count">(31)</span>
+                                    </div>
+                                </div>
+                                <p class="price">£3.50</p>
+                                <div class="stock-msg">In Stock</div>
+                                <div class="shop-now-img">
+                                    <img src="./images/shop-now.svg" alt="">
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <footer>
-        
+
     </footer>
 </body>
 

@@ -41,19 +41,29 @@ nav ul li a {
 }
 
 .search-btn {
-  width: 230px;
+  width: auto;
   height: 40px;
   margin-left: 40%;
+  margin-right: 20px;
   align-items: center;
   display: flex;
   margin-top: 6px;
 }
+
+.search-btn button {
+  border: none;
+}
+
+.search-btn button:hover {
+  cursor: pointer;
+  color: #a6a696;
+}
+
 .material-symbols-outlined {
   font-family: "Material Symbols Outlined";
   font-weight: normal;
   font-style: normal;
   font-size: 25px;
-
   letter-spacing: normal;
   text-transform: none;
   display: inline-block;
@@ -71,8 +81,6 @@ nav ul li a {
   height: 40px;
   border-radius: 20px;
   outline-color: #649646;
-  line-height: 1.8;
-  padding-left: 8px;
   z-index: 2;
 }
 
@@ -84,9 +92,10 @@ input[type="text"] {
   background: #34473d;
   font-size: 14px;
   font-family: "Spartan", sans-serif;
+  border: none;
   outline: none;
-  text-align: center;
   color: #f4e5d3;
+  padding-left: 60px;
 }
 
 p.checkout-section {
@@ -103,6 +112,7 @@ p.checkout-section span {
 
 i.fa-solid.fa-bag-shopping {
   font-size: 30px;
+  color: #649646;
 }
 
 .hedder-container {
@@ -336,3 +346,76 @@ element.style {
   display: flex;
   justify-content: space-evenly;
 }
+
+.small-banner-text {
+  max-width: 750px;
+  margin: 50px auto;
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.5em;
+}
+
+/* home-products css start  */
+
+.home-products {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  margin: auto;
+  background: #ece6e1;
+}
+
+.home-products-title h4 {
+  margin-top: 35px;
+  margin-bottom: 50px;
+  color: #34473d;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.all-products {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.the-products {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.products-img {
+  display: grid;
+  justify-content: center;
+}
+
+.products-details {
+  text-align: center;
+  margin: 20px 0 20px 0;
+}
+
+.products-title,
+.review-stars,
+.stars,
+.price,
+.stock-msg,
+.shop-now-img {
+  margin: 20px 0 20px 0;
+}
+
+.the-products-card {
+  width: 250px;
+}
+
+.products-title,
+span.count {
+  color: #34473d;
+  font-size: 14px;
+}
+
+.review-stars .stars span.material-symbols-sharp {
+  color: #ed8926;
+}
+
+/* home-products css end  */
