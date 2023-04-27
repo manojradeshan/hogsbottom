@@ -627,15 +627,15 @@ footer h4 {
 }
 
 li.contact.address {
-    line-height: 1.4;
+  line-height: 1.4;
 }
 
 li.contact {
-    line-height: 2.5;
+  line-height: 2.5;
 }
 
 footer li {
-     line-height: 2;
+  line-height: 2;
   list-style: none;
   font-weight: 400;
 }
@@ -655,3 +655,26 @@ li.social-icon {
 }
 
 /* footer scc end */
+
+/* footer payment method css start */
+
+.payment-logo-method {
+  color: #f4e5d3;
+  background: #415648;
+}
+
+.footer-text {
+  font-size: 14px;
+  color: #8fbb75;
+  margin-left: 200px;
+}
+
+.payment-row {
+  width: 100%;
+  padding: 30px;
+  display: inline-flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* footer payment method css end */
