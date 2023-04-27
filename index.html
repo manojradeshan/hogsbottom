@@ -24,9 +24,9 @@
 <body>
     <div class="nanbar-cuntainer"> <!-- top navbar start -->
         <nav>
-            <ul class="top">
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./contact.html">Contact Us</a></li>
+            <ul id="home"class="top">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#contact">Contact Us</a></li>
             </ul>
             <div class="search-btn"> <!-- search btn -->
                 <button name="search" class="material-symbols-outlined" aria-label="Search">
@@ -41,12 +41,6 @@
                 <span><i class="fa-solid fa-bag-shopping"></i></span> <!--bag icon -->
             </p>
         </nav> <!-- top navbar end -->
-    </div>
-
-    <div class="hedder-container">
-        <div class="logo-img">
-            <img src="./images/logo.png" alt="logo">
-        </div>
     </div>
 
     <div class="main-navbar-container">
@@ -422,7 +416,7 @@
     </section>
     <!-- welcome section end  -->
 
-    <div class="contact-section">
+    <div id="contact" class="contact-section">
         <div class="contact-section-container">
             <form action="post">
                 <label for="">Sign up to our Newsletter <br>
@@ -498,19 +492,34 @@
 </body>
 
 <script>
-    let slideIndex = 0;
-    showSlides();
+    let slideIndex = 1;
+    showSlides(slideIndex);
 
-    function showSlides() {
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
         let i;
         let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) { slideIndex = 1 }
+        if (n < 1) { slideIndex = slides.length }
         for (i = 0; i < slides.length; i++) {
             slides[i].style.display = "none";
         }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
         slideIndex++;
         if (slideIndex > slides.length) { slideIndex = 1 }
-        slides[slideIndex - 1].style.display = "block";
-        setTimeout(showSlides, 2000); // Change image every 2 seconds
+        setTimeout(showSlides, 5000); // Change image every 5 seconds
     }
 </script>
 

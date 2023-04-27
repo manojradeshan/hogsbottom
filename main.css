@@ -247,6 +247,12 @@ element.style {
   border-radius: 0 3px 3px 0;
   user-select: none;
 }
+.prev:hover {
+  color: #4d4d4d;
+}
+.next:hover {
+  color: #4d4d4d;
+}
 
 /* Position the "next button" to the right */
 .next {
@@ -276,9 +282,11 @@ element.style {
   display: inline-block;
   transition: background-color 0.6s ease;
 }
-
-.active,
 .dot:hover {
+  background-color: #4d4d4d;
+}
+
+.active {
   background-color: #ffffff;
 }
 
@@ -679,3 +687,27 @@ li.social-icon {
 }
 
 /* footer payment method css end */
+
+@media only screen and (max-width: 1200px) {
+  /* extra large devices (large laptops and desktops, 1200px and up) */
+}
+
+@media only screen and (max-width: 990px) {
+  /* large devices (laptops and desktops, 990px and up) */
+}
+
+@media only screen and (max-width: 770px) {
+  /* medium devices (landscape tablets, 770px and up) */
+}
+
+@media only screen and (max-width: 600px) {
+  /* smal devices (portrait tablets and large phones, 600px and up) */
+}
+
+@media only screen and (max-width: 460px) {
+  /* extra smal devices (phones, 460px and up) */
+}
+
+@media only screen and (max-width: 320px) {
+  /* extra smal devices (phones, 320px and up) */
+}
