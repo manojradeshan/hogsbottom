@@ -498,6 +498,8 @@ p.description {
 
 /* review section css end  */
 
+/* welcome text css start  */
+
 .welcome-section-container {
   position: relative;
   background-image: url(./images/welcome-background.jpg);
@@ -546,6 +548,7 @@ p.welcome {
   width: 85%;
   margin: 0 auto;
   margin-top: 10px;
+  color: #333;
 }
 
 .welcome-btn a,
@@ -563,25 +566,51 @@ form a {
 }
 
 form {
-    align-items: center;
-    display: flex;
-    margin: 40px;
+  align-items: center;
+  display: flex;
+  margin: 40px;
+  justify-content: space-evenly;
 }
 
 input.form-placeholder {
-    background-color: transparent;
+  background: #ece6e1;
+  border-radius: 10px;
+  padding: 0;
+  width: 300px;
+  padding-left: 20px;
 }
 
 label {
-    text-transform: uppercase;
-    color: #333;
-    font-size: 14px;
-    font-weight: 700;
+  text-transform: uppercase;
+  color: #333;
+  font-size: 14px;
+  font-weight: 700;
+  margin-right: 60px;
 }
 
 span.contact {
-    margin-bottom: 20px;
-    font-size: 14px;
-    font-weight: 400;
-    text-transform: capitalize;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: capitalize;
 }
+/* welcome text css end  */
+
+/* footer scc start */
+
+footer {
+    color: #f4e5d3;
+    background: #34473d;
+    font-size: 14px;
+}
+
+.footer-container{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+footer .fotter-row {
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+}
+
+/* footer scc end */
