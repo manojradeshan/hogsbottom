@@ -247,6 +247,12 @@ element.style {
   border-radius: 0 3px 3px 0;
   user-select: none;
 }
+.prev:hover {
+  color: #4d4d4d;
+}
+.next:hover {
+  color: #4d4d4d;
+}
 
 /* Position the "next button" to the right */
 .next {
@@ -276,9 +282,11 @@ element.style {
   display: inline-block;
   transition: background-color 0.6s ease;
 }
-
-.active,
 .dot:hover {
+  background-color: #4d4d4d;
+}
+
+.active {
   background-color: #ffffff;
 }
 
@@ -518,6 +526,7 @@ p.description {
   text-align: center;
   background-color: #fff;
   border-radius: 20px;
+  box-shadow: 0px 0px 7px 0px #000000;
 }
 
 .welcome-text {
@@ -599,18 +608,106 @@ span.contact {
 /* footer scc start */
 
 footer {
-    color: #f4e5d3;
-    background: #34473d;
-    font-size: 14px;
+  color: #f4e5d3;
+  background: #34473d;
+  font-size: 14px;
 }
 
-.footer-container{
-    padding-top: 80px;
-    padding-bottom: 80px;
+.footer-container {
+  margin: 0 50px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 footer .fotter-row {
-    grid-template-columns: 2fr 1fr 1fr 1fr;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+}
+
+.footer-logo {
+  margin-bottom: 25px;
+}
+
+footer h4 {
+  font-weight: 400;
+  margin-bottom: 30px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+li.contact.address {
+  line-height: 1.4;
+}
+
+li.contact {
+  line-height: 2.5;
+}
+
+footer li {
+  line-height: 2;
+  list-style: none;
+  font-weight: 400;
+}
+
+footer a {
+  font-weight: 400;
+  text-decoration: none;
+  color: #8fbb75;
+}
+
+ul.social {
+  display: flex;
+  justify-content: space-evenly;
+}
+li.social-icon {
+  font-size: 20px;
 }
 
 /* footer scc end */
+
+/* footer payment method css start */
+
+.payment-logo-method {
+  color: #f4e5d3;
+  background: #415648;
+}
+
+.footer-text {
+  font-size: 14px;
+  color: #8fbb75;
+  margin-left: 200px;
+}
+
+.payment-row {
+  width: 100%;
+  padding: 30px;
+  display: inline-flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* footer payment method css end */
+
+@media only screen and (max-width: 1200px) {
+  /* extra large devices (large laptops and desktops, 1200px and up) */
+}
+
+@media only screen and (max-width: 990px) {
+  /* large devices (laptops and desktops, 990px and up) */
+}
+
+@media only screen and (max-width: 770px) {
+  /* medium devices (landscape tablets, 770px and up) */
+}
+
+@media only screen and (max-width: 600px) {
+  /* smal devices (portrait tablets and large phones, 600px and up) */
+}
+
+@media only screen and (max-width: 460px) {
+  /* extra smal devices (phones, 460px and up) */
+}
+
+@media only screen and (max-width: 320px) {
+  /* extra smal devices (phones, 320px and up) */
+}
