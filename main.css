@@ -46,25 +46,6 @@ nav {
   left: 0;
 }
 
-nav ul {
-  padding-top: 15px;
-  padding-left: 50px;
-  list-style: none;
-  display: inline-flex;
-}
-
-nav ul li {
-  list-style: none;
-}
-
-nav ul li a {
-  text-decoration: none;
-  text-transform: none;
-  font-size: 14px;
-  color: #f4e5d3;
-  margin-right: 15px;
-}
-
 .search-btn {
   width: auto;
   height: 40px;
