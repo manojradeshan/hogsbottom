@@ -10,6 +10,18 @@ body {
   font-family: "Spartan", sans-serif;
 }
 
+/* all button hover effect start  */
+
+button.shop-now-btn a:hover,
+.read-revivew-btn a:hover,
+.welcome-btn a:hover,
+form a:hover {
+  background-color: #a76f7aa3;
+  cursor: pointer;
+}
+
+/* all button hover effect end  */
+
 nav {
   align-items: center;
   display: flex;
@@ -471,6 +483,23 @@ p.price {
 
 .review-stars .stars span.material-symbols-sharp {
   color: #70960c;
+}
+
+button.shop-now-btn {
+  border: none;
+}
+
+button.shop-now-btn a {
+  position: relative;
+  text-decoration: none;
+  padding: 12px 25px 8px;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  background-color: #a76f7a;
+  color: #ffff;
+  border-radius: 10px;
 }
 
 /* home-products css end  */
