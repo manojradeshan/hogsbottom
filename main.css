@@ -18,7 +18,7 @@ nav {
 .nanbar-cuntainer {
   width: auto;
   height: 50px;
-  background-color: #415648;
+  background-color: #38363b;
 }
 
 .logo {
@@ -79,12 +79,12 @@ nav ul li a {
 }
 .material-symbols-outlined {
   position: absolute;
-  background-color: #649646;
+  background-color: #70960C;
   color: #ffff;
   width: 40px;
   height: 40px;
   border-radius: 20px;
-  outline-color: #649646;
+  outline-color: #70960C;
   z-index: 2;
 }
 
@@ -93,7 +93,7 @@ input[type="text"] {
   width: auto;
   height: 40px;
   border-radius: 20px;
-  background: #34473d;
+  color: #38363B;
   font-size: 14px;
   font-family: "Spartan", sans-serif;
   border: none;
@@ -116,13 +116,13 @@ p.checkout-section span {
 
 i.fa-solid.fa-bag-shopping {
   font-size: 30px;
-  color: #649646;
+  color: #70960C;
 }
 
 .hedder-container {
   width: auto;
   min-height: 160px;
-  background: #34473d;
+  color: #38363B;
   position: relative;
 }
 
@@ -134,7 +134,7 @@ i.fa-solid.fa-bag-shopping {
 
 .main-navbar-container {
   height: 50px;
-  background-color: #649646;
+  background-color: #70960C;
 }
 
 .main-navbar-container .main-navbar {
@@ -162,7 +162,7 @@ li.parent-item {
 li.parent-item ul {
   position: absolute;
   display: none;
-  background-color: #85ac6d;
+  background-color: #9Eb708;
   width: 150px;
 }
 
@@ -180,7 +180,7 @@ li.parent-item ul li a {
 }
 
 .main-navbar ul li:hover {
-  background-color: #85ac6d;
+  background-color: #9Eb708;
 }
 
 .main-navbar ul li.parent-item:hover > ul {
@@ -309,7 +309,7 @@ element.style {
   width: 165px;
   height: 45px;
   padding: 8px 10px 0 14px;
-  background: #ed8926;
+  background: #A76F7A;
   font-size: 20px;
   text-transform: uppercase;
   text-align: center;
@@ -345,7 +345,7 @@ element.style {
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
-  color: #34473d;
+  color: #38363B;
 }
 
 .home-middle .home-middle-raw::before {
@@ -381,7 +381,7 @@ element.style {
 .home-products-title h4 {
   margin-top: 35px;
   margin-bottom: 50px;
-  color: #34473d;
+  color: #38363B;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.03em;
@@ -420,14 +420,14 @@ element.style {
 
 .products-title,
 span.count {
-  color: #34473d;
+  color: #38363B;
   font-size: 14px;
   height: 70px;
 }
 
 p.price {
   font-size: 14px;
-  color: #34473d;
+  color: #38363B;
   font-weight: 700;
   padding-top: 5px;
 }
@@ -438,7 +438,7 @@ p.price {
 }
 
 .review-stars .stars span.material-symbols-sharp {
-  color: #ed8926;
+  color: #70960C;
 }
 
 /* home-products css end  */
@@ -452,7 +452,7 @@ p.price {
 .review-box-title {
   margin-top: 35px;
   margin-bottom: 50px;
-  color: #34473d;
+  color: #38363B;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.03em;
@@ -471,7 +471,7 @@ p.price {
 p.review {
   font-weight: 700;
   font-size: 14px;
-  color: #34473d;
+  color: #38363B;
   margin-top: 10px;
 }
 
@@ -502,9 +502,9 @@ p.description {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.03em;
-  background-color: #415648;
+  background-color: #A76F7A;
   border: none;
-  color: #f4e5d3;
+  color: #ffff;
   border-radius: 5px;
   margin-bottom: 40px;
 }
@@ -565,8 +565,7 @@ p.welcome {
   color: #333;
 }
 
-.welcome-btn a,
-form a {
+.welcome-btn a, form a {
   position: relative;
   text-decoration: none;
   padding: 12px 25px 8px;
@@ -574,8 +573,8 @@ form a {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.03em;
-  background-color: #415648;
-  color: #f4e5d3;
+  background-color: #A76F7A;
+  color: #ffff;
   border-radius: 10px;
 }
 
@@ -613,8 +612,8 @@ span.contact {
 /* footer scc start */
 
 footer {
-  color: #f4e5d3;
-  background: #34473d;
+  color: #ffffff;
+  background: #38363B;
   font-size: 14px;
 }
 
@@ -657,7 +656,7 @@ footer li {
 footer a {
   font-weight: 400;
   text-decoration: none;
-  color: #8fbb75;
+  color: #70960C;
 }
 
 ul.social {
@@ -674,12 +673,12 @@ li.social-icon {
 
 .payment-logo-method {
   color: #f4e5d3;
-  background: #415648;
+  background: #70960C;
 }
 
 .footer-text {
   font-size: 14px;
-  color: #8fbb75;
+  color: #38363B;
   margin-left: 200px;
 }
 
