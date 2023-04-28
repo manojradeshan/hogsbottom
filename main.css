@@ -529,16 +529,23 @@ p.description {
 
 .read-revivew-btn {
   position: relative;
+  border: none;
+  margin-bottom: 40px;
+}
+
+.read-revivew-btn a {
   padding: 12px 25px 8px;
   font-size: 15px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.03em;
   background-color: #a76f7a;
-  border: none;
   color: #ffff;
   border-radius: 5px;
-  margin-bottom: 40px;
+  text-decoration: none;
+}
+
+.read-revivew-btn:hover {
 }
 
 /* review section css end  */
@@ -559,10 +566,9 @@ p.description {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(0%, -50%);
+  transform: translate(-5%, -50%);
   text-align: center;
   background-color: #ffffffd9;
-  border-radius: 20px;
   box-shadow: 0px 0px 7px 0px #000000;
 }
 
