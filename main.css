@@ -21,6 +21,10 @@ nav {
   background-color: #415648;
 }
 
+.logo {
+    padding-left: 10%;
+}
+
 nav ul {
   padding-top: 15px;
   padding-left: 50px;
