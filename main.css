@@ -62,7 +62,7 @@ nav {
 
 .search-btn button:hover {
   cursor: pointer;
-  color: #a6a696;
+  background: #9eb708;
 }
 
 .material-symbols-outlined {
@@ -107,9 +107,17 @@ input[type="text"] {
 p.checkout-section {
   margin-top: 10px;
   font-size: 14px;
-  color: #f4e5d3;
   align-items: center;
   display: flex;
+}
+
+p.checkout-section a {
+  text-decoration: none;
+  color: #f4e5d3;
+}
+
+p.checkout-section a:hover {
+  color: #ffffff;
 }
 
 p.checkout-section span {
@@ -119,6 +127,10 @@ p.checkout-section span {
 i.fa-solid.fa-bag-shopping {
   font-size: 30px;
   color: #70960c;
+}
+
+i.fa-solid.fa-bag-shopping:hover {
+  color: #9eb708;
 }
 
 .hedder-container {
@@ -208,6 +220,11 @@ li.parent-item ul li a {
   padding-top: 18px;
   padding-left: 25px;
   padding-right: 25px;
+}
+
+.main-navbar ul li a:hover,
+li.parent-item ul li a:hover {
+  color: #ffffff;
 }
 
 span.material-symbols-outlined {
@@ -379,6 +396,7 @@ element.style {
 
 .banner-item-name:hover {
   background-color: #b36d7a;
+  cursor: pointer;
 }
 
 .banner-card {
