@@ -426,7 +426,7 @@ element.style {
 }
 
 .home-products::before {
-  content: ''; /* Required for the pseudo-element */
+  content: ""; /* Required for the pseudo-element */
   position: absolute; /* Position the pseudo-element absolutely within the container */
   top: 0;
   left: 0;
@@ -607,11 +607,11 @@ p.description {
 }
 
 .welcome-box {
-  width: 50%;
+  width: 60%;
   height: 90%;
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 40%;
   transform: translate(-5%, -50%);
   text-align: center;
   background-color: #ffffffd9;
