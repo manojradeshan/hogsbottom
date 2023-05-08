@@ -10,12 +10,17 @@ body {
   font-family: "Spartan", sans-serif;
 }
 
+a,
+p {
+  font-weight: 300;
+}
+
 /* all button hover effect start  */
 
 button.shop-now-btn a:hover,
 .read-revivew-btn a:hover,
 .welcome-btn a:hover,
-form a:hover {
+.contact-form a:hover {
   background-color: #a76f7aa3;
   cursor: pointer;
 }
@@ -465,6 +470,10 @@ element.style {
   justify-content: center;
 }
 
+.products-img img {
+    width: 100%;
+}
+
 .products-details {
   text-align: center;
   margin: 20px 0 20px 0;
@@ -661,7 +670,7 @@ form a {
   border-radius: 10px;
 }
 
-form {
+.contact-form {
   align-items: center;
   display: flex;
   margin: 40px;
@@ -774,6 +783,144 @@ li.social-icon {
 }
 
 /* footer payment method css end */
+
+/* pantry page css start */
+
+.pantry {
+  width: 93%;
+  margin: 0 auto;
+}
+
+.pantry-row {
+  display: flex;
+  width: 100%;
+}
+
+.pantry-filter-col {
+  width: 33%;
+}
+
+.pages-links {
+  border-bottom: 1px solid;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+
+.pages-links a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.pantry-page-header-text {
+  width: 75%;
+  float: left;
+}
+
+.pantry-page-header h2 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+h2.pantry-h2 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.pantry-page-header p {
+  font-size: 14px;
+  line-height: 1.4;
+  margin: 10px 10px 10px 0;
+}
+
+.pantry-page-header-rating {
+  background: #ece6e1;
+  width: 25%;
+  float: right;
+  border-radius: 10px;
+}
+
+.filter-list-group {
+  margin-bottom: 10px;
+}
+
+form.input-price {
+  display: inline-flex;
+  align-items: center;
+}
+
+a.input-form-btn {
+  background: #70960c;
+  padding: 8px 12px;
+}
+
+li.filter-title-li {
+  list-style: none;
+  border-bottom: 1px solid #ffff;
+  background: #ece6e1;
+  font-size: 13px;
+  padding: 10px;
+}
+
+li.filter-title-li:first-child {
+  background: #70960c;
+  border-radius: 5px 5px 0 0;
+  font-size: 16px;
+}
+
+li.filter-title-li:last-child {
+  border-radius: 0 0 5px 5px;
+}
+
+input[type="checkbox"] {
+  float: right;
+}
+
+p.pantry {
+  padding: 0;
+  margin: 0;
+}
+
+.pagination-case {
+  display: grid;
+  grid-template-columns: 150px 60px 1fr auto;
+  grid-template-rows: 32px;
+  gap: 15px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-left: 45px;
+  align-items: center;
+}
+
+select.auto-submit {
+  width: 100%;
+  padding: 8px 0;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.pagination-count {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+label.control-label {
+  margin: 0;
+  font-size: 13px;
+}
+
+input.pantry-input {
+  width: 10px;
+  height: 30px;
+  border-radius: 2px;
+}
+
+/* pantry page css end */
 
 @media only screen and (max-width: 1200px) {
   /* extra large devices (large laptops and desktops, 1200px and up) */
